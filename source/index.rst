@@ -3,7 +3,7 @@ Trip Generation Standard and Schema
 
 This document represents a proposed working draft standard for Trip Generation data and a supporting schema structure for electronic application. The proposed standard was inspired by recent work done by the Institute of Transportation Engineers (ITE) since 2016 in their efforts to produce the recently released *ITE Trip Generation Manual, 10th Edition (2017)*. This standard has been developed specifically as part of the `TripChain`_ project but is made open source to further general dialogue, collaboration, and agreement within the profession to further adoption of an agreed Trip Generation Standard.
 
-Culminating from this effort, it is the intent to produce several schema of digital formats to apply in data exchange and conversion schemes. The *`TripChain_`* project applies a JavaScript Object Notation (JSON) format using priciples derived from `JSON Schema`_. The principles of the standard can be converted to schema in additional formats, such as XML, CSV, SQL, and others.
+Culminating from this effort, it is the intent to produce several schema of digital formats to apply in data exchange and conversion schemes. The `TripChain`_ project applies a JavaScript Object Notation (JSON) format using priciples derived from `JSON Schema`_. The principles of the standard can be converted to schema in additional formats, such as XML, CSV, SQL, and others.
 
 
 
@@ -21,7 +21,7 @@ Information about development is available under the following sections:
 * :ref:`design-docs`
 * :ref:`ops-docs`
 
-The code is open source, and `available on github`.
+This document code is open source and `available on github`_.
 
 .. _user-docs:
 .. toctree::
@@ -125,3 +125,4 @@ The code is open source, and `available on github`.
 
 .. _TripChain: http://tripchain.org/
 .. _JSON Schema: http://json-schema.org/
+.. _available on github: https://github.com/TripChain/TripGeneration-Standard
