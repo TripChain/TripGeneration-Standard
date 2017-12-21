@@ -18,7 +18,7 @@ Information and documentation for specific schema are found in the following sec
 This document code is open source and `available on github`_.
 
 .. _overview-docs:
-	.. toctree::
+.. toctree::
 	:maxdepth: 2
 	:caption: Overview Documentation
 
