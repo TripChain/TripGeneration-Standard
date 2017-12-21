@@ -48,8 +48,8 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'TripChain'
-copyright = u'2017, TripChain.Org'
+project = u'TripGeneration-Standard'
+copyright = u'2018, TripChain.Org'
 author = u'TripChain.Org'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -258,7 +258,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'TripChain-Docs.tex', u'TripChain Documentation',
+    (master_doc, 'TripGeneration-Standard.tex', u'Trip Generation Standard Documentation',
      u'TripChain.Org', 'manual'),
 ]
 
@@ -300,7 +300,7 @@ latex_logo = "./img/banner-logo.png"
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'TripChain-Docs', u'TripChain Documentation',
+    (master_doc, 'TripGeneration-Standard', u'Trip Generation Standard Documentation',
      [author], 1)
 ]
 
@@ -315,7 +315,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'TripChain-Docs', u'TripChain Documentation',
+    (master_doc, 'TripGeneration-Standard', u'Trip Generation Standard Documentation',
      author, 'TripChain', 'A Peer-to-Peer Trip Generation Database',
      'Miscellaneous'),
 ]
