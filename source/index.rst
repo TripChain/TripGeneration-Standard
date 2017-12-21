@@ -51,7 +51,7 @@ This document code is open source and `available on github`_.
 	specs/json/introduction
 	specs/json/schema
 
-.. _dev-docs:
+.. _schema-other-specs:
 .. toctree::
 	:maxdepth: 2
 	:caption: Other Schema Specifications
