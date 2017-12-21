@@ -1,5 +1,5 @@
-TripChain Documentation
-=======================
+Trip Generation Standard Documentation
+======================================
 
 This documentation represents the core files of the TripChain framework, herein refered to as TripChain-Core. TripChain-Core consists of the blockchain, database, and API components that make up a node within the TripChain network.
 
