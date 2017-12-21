@@ -1,9 +1,12 @@
-Trip Generation Standard Documentation
-======================================
+Trip Generation Standard and Schema
+===================================
 
-This documentation represents the core files of the TripChain framework, herein refered to as TripChain-Core. TripChain-Core consists of the blockchain, database, and API components that make up a node within the TripChain network.
+This document represents a proposed working draft standard for Trip Generation data and a supporting schema structure for electronic application. The proposed standard was inspired by recent work done by the Institute of Transportation Engineers (ITE) since 2016 in their efforts to produce the recently released *ITE Trip Generation Manual, 10th Edition (2017)*. This standard has been developed specifically as part of the *`TripChain`_* project but is made open source to further general dialogue, collaboration, and agreement within the profession to further adoption of an agreed Trip Generation Standard.
 
-TripChain-Core is currently in 'alpha', meaning that it is under active development without full features at this time. Please use associated data and services with caution as they are not yet production ready. This project will remain proof-of-concept until further notice.
+Culminating from this effort, it is the intent to produce several schema of digital formats to apply in data exchange and conversion schemes. The *`TripChain`_* project applies a JavaScript Object Notation (JSON) format using priciples derived from `JSON Schema`_. The principles of the standard can be converted to scheme in additional formats, such as XML, CSV, SQL, and others.
+
+
+
 
 The main documentation for the site is organized into the following sections:
 
@@ -18,7 +21,7 @@ Information about development is available under the following sections:
 * :ref:`design-docs`
 * :ref:`ops-docs`
 
-The code is open source, and `available on github`_.
+The code is open source, and `available on github`.
 
 .. _user-docs:
 .. toctree::
@@ -120,4 +123,5 @@ The code is open source, and `available on github`_.
 
    rtfd
 
-.. _available on github: https://github.com/TripChain
+.. _TripChain: http://tripchain.org/
+.. _JSON Schema: http://json-schema.org/
