@@ -5,121 +5,58 @@ This document represents a proposed working draft standard for Trip Generation d
 
 Culminating from this effort, it is the intent to produce several schema of digital formats to apply in data exchange and conversion schemes. The `TripChain`_ project applies a JavaScript Object Notation (JSON) format using priciples derived from `JSON Schema`_. The principles of the standard can be converted to schema in additional formats, such as XML, CSV, SQL, and others.
 
+The main documentation defining the Trip Generation Standard can be found in the following sections:
 
+* :ref:`overview-docs`
+* :ref:`standard-docs`
 
+Information and documentation for specific schema are found in the following sections:
 
-The main documentation for the site is organized into the following sections:
-
-* :ref:`user-docs`
-* :ref:`feature-docs`
-* :ref:`about-docs`
-
-Information about development is available under the following sections:
-
-* :ref:`tech-specs`
-* :ref:`dev-docs`
-* :ref:`design-docs`
-* :ref:`ops-docs`
+* :ref:`schema-json-specs`
+* :ref:`schema-other-specs`
 
 This document code is open source and `available on github`_.
 
-.. _user-docs:
+.. _overview-docs:
+	.. toctree::
+	:maxdepth: 2
+	:caption: Overview Documentation
+
+	overview/introduction
+	overview/getting_started
+	overview/versions
+	overview/builds
+	overview/features
+	overview/support
+	overview/faq
+	overview/definitions
+
+.. _standard-docs:
 .. toctree::
 	:maxdepth: 2
-	:caption: User Documentation
+	:caption: Standard Documentation
 
-	user/getting_started
-	user/versions
-	user/builds
-	user/features
-	user/support
-	user/faq
+	standard/introduction
+	standard/general_info
+	standard/land_use_variables
+	standard/context_data
+	standard/detailed_volumes
+	standard/calculated
 
-.. _tech-specs:
+.. _schema-json-specs:
 .. toctree::
-   :maxdepth: 2
-   :caption: Technical Specifications
+	:maxdepth: 2
+	:caption: JSON Schema Specifications
 
-   techspecs/proj_goals
-   techspecs/arch_infra
-   techspecs/user_interface
-   techspecs/bkgd_tasks
-   techspecs/db_model
-   techspecs/sys_interface
-   techspecs/non_funct
-   techspecs/dictionary
-
-.. _feature-docs:
-.. toctree::
-   :maxdepth: 2
-   :caption: Feature Documentation
-
-   webhooks
-   badges
-   alternate_domains
-   localization
-   vcs
-   conda
-   canonical
-   single_version
-   privacy
-   user-defined-redirects
-   automatic-redirects
-   features/*
+	specs/json/introduction
+	specs/json/schema
 
 .. _dev-docs:
 .. toctree::
-   :maxdepth: 2
-   :caption: Developer Documentation
+	:maxdepth: 2
+	:caption: Other Schema Specifications
 
-   team
-   install
-   changelog
-   contribute
-   tests
-   architecture
-   development/standards
-   development/buildenvironments
-   symlinks
-   settings
-   i18n
-   issue-labels
-
-.. _business-docs:
-.. toctree::
-   :maxdepth: 2
-   :caption: Business Documentation
-
-   business/index
-
-.. _custom-docs:
-.. toctree::
-   :maxdepth: 2
-   :caption: Custom Install Documentation
-
-   custom_installs/index
-
-.. _design-docs:
-.. toctree::
-   :maxdepth: 2
-   :caption: Designer Documentation
-
-   design
-   theme
-
-.. _about-docs:
-.. toctree::
-   :maxdepth: 2
-   :caption: About Documentation
-
-   open-source-philosophy
-   sponsors
-   talks
-
-.. _ops-docs:
-.. toctree::
-   :maxdepth: 2
-   :caption: Operations Documentation
+	specs/other/introduction
 
    rtfd
 
