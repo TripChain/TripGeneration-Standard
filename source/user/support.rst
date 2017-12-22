@@ -1,4 +1,0 @@
-Support
-=======
-
-Coming soon...
